@@ -154,7 +154,7 @@ main p span {
 .div-header ul li {
   float: left;
   color: rgb(128, 128, 128);
-  margin: 10px 10px;
+  margin: 10px -10px;
   font-size: 1.3em;
 }
 
@@ -353,7 +353,7 @@ aside hr {
 .div-footer ul li {
   float: left;
   color: rgb(128, 128, 128);
-  margin: -10px 20px;
+  margin: -10px 0;
   font-size: 1.3em;
 }
 
@@ -549,6 +549,10 @@ li.title {
   font-weight: bolder;
 }
 
+#subscribe li a i {
+  padding: 0;
+}
+
 #footer-links ul#mobile {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 9%;
@@ -588,7 +592,7 @@ li.title {
   cursor: pointer;
 }
 
-.footer-nav {
+.footer-navbar {
   bottom: 0;
   left: 0;
   right: 0;
@@ -602,7 +606,7 @@ li.title {
   padding: 1% 0;
 }
 
-.footer-nav p {
+.footer-navbar p {
   color: #333;
   font-family: sans-serif;
   font-size: 0.8em;
@@ -610,13 +614,13 @@ li.title {
   margin-top: 0.5%;
 }
 
-.footer-nav div {
+.footer-navbar div {
   float: right;
   margin-top: -2.2%;
   margin-right: 10%;
 }
 
-.footer-nav div a {
+.footer-navbar div a {
   text-decoration: none;
   color: #333;
   font-family: sans-serif;
@@ -624,6 +628,6 @@ li.title {
   font-weight: bold;
 }
 
-.footer-nav div a, i {
+.footer-navbar div a, i {
   padding: 0 20px;
 }
