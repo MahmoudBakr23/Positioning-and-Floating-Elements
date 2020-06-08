@@ -6,6 +6,10 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+h4{
+    margin: 5px;
+}
+
 nav {
     top: 0;
     left: 0;
@@ -351,3 +355,133 @@ aside hr {
     border-radius: 3px;
     margin-top: 1.5%;
 }
+
+.recommendation-area {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "more popular"
+        "more-cont popular"
+        "editor-pick popular";
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 15px;
+
+}
+
+.bordered-container {
+    border-top: 1px solid #333;
+    padding-top: 5px;
+}
+
+.bordered-container h5 {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#more {
+    padding: 0;
+    grid-area: more;
+    width: 96%;
+}
+
+#rec-articles-cont{
+    grid-area: more-cont;
+    display: grid;
+    grid-template-columns: repeat(3, 290px);
+    width: 96%;
+}
+
+#editor-pick{
+    grid-area: editor-pick;
+    border-top: 1px solid #333;
+    width: 96%;
+}
+#editor-articles {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 290px);
+
+}
+
+.rec-articles{
+    display: grid;
+    grid-template-columns: repeat(3, 290px);
+    grid-row-gap: 50px;
+    margin-top: 1.5%;
+
+}
+
+.article {
+    width: 272.63px;
+}
+
+.article figure, .article h3, .article p {
+    margin: 2px 0 5px 0;
+    padding: 0;
+}
+
+.article figure img {
+    width: 272.63px;
+    height: 181.75px;
+
+}
+
+.article figure figcaption, .article p{
+    text-align: right;
+    color: #999;
+    font-family: sans-serif;
+    font-size: 0.85em;
+}
+
+.article p{
+    text-align: left;
+    font-size: 0.8em;
+}
+
+#most-popular{
+    grid-area: popular;
+    border-top: 1px solid #333;
+}
+
+#most-popular h4{
+    margin-top: 2%;
+}
+
+#most-popular ul{
+    padding: 0;
+    list-style: none;
+}
+
+#most-popular ul li{
+    padding: 20px 0;
+    text-align: left;
+    border-top: 1px solid #999;
+}
+
+#most-popular ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 0;
+}
+
+f
+
+.footer-container{
+
+}
+
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title img{
+    width: 200px;
+    height: 50px;
+}
+
+
