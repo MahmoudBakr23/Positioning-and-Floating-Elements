@@ -23,7 +23,7 @@ nav {
   border-bottom: 1px solid rgb(146, 146, 146);
 }
 
-nav .nav-icons {
+nav .nav-unique {
   float: left;
   margin-top: 12px;
   margin-left: 10px;
@@ -31,30 +31,19 @@ nav .nav-icons {
   font-size: 0.9em;
 }
 
-nav .nav-icons i,
+nav .nav-unique i,
 a {
   padding: 0 12px;
 }
 
-nav .nav-icons a {
+nav .nav-unique a {
   text-decoration: none;
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI", Roboto, Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: rgb(41, 41, 41);
   cursor: default;
-}
-
-nav .nav-icons a:hover {
-  text-decoration: underline;
 }
 
 nav .nav-end {
@@ -68,17 +57,13 @@ button {
   padding: 5px 12px;
 }
 
+nav .nav-unique a:hover {
+  text-decoration: underline;
+}
+
 nav .nav-end a {
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto, Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-transform: capitalize;
   font-weight: bold;
   text-decoration: underline;
@@ -96,17 +81,8 @@ nav .nav-end button {
   color: white;
   border-radius: 8px;
   font-weight: bold;
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 nav img {
@@ -121,17 +97,8 @@ main {
 }
 
 main h1 {
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: italic;
   margin-left: 27%;
 }
@@ -159,21 +126,22 @@ main p span {
 
 .dennis-p h4 {
   color: rgb(41, 41, 41);
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.dennis-p span {
+  color: rgb(61, 61, 253);
+  text-decoration: underline;
 }
 
 .by-dennis h4 span {
   text-decoration: underline;
+}
+
+.dennis-p span:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .by-dennis h4 span:hover {
@@ -206,16 +174,6 @@ main p span {
   line-height: 1.875rem;
   font-family: Georgia, "times new roman", times, serif;
   color: rgb(41, 41, 41);
-}
-
-.dennis-p span {
-  color: rgb(61, 61, 253);
-  text-decoration: underline;
-}
-
-.dennis-p span:hover {
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .dennis-offer {
@@ -313,17 +271,8 @@ aside hr {
 }
 
 .grid div p {
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 0.9em;
   color: rgb(41, 41, 41);
 }
@@ -346,17 +295,8 @@ aside hr {
 
 .grid-footer p {
   color: rgb(41, 41, 41);
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .by-dennis-continue {
@@ -372,17 +312,8 @@ aside hr {
 
 .embed-video p {
   color: rgb(41, 41, 41);
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .embed-video p span {
@@ -397,17 +328,8 @@ aside hr {
 .dennis-img p {
   max-width: 92%;
   color: rgb(41, 41, 41);
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .dennis-img p span {
@@ -608,17 +530,8 @@ footer {
 }
 
 #footer-links ul li {
-  font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  "Open Sans",
-  "Helvetica Neue",
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 5px 0;
   font-size: 0.8em;
 }
@@ -725,6 +638,7 @@ li.title {
   font-weight: bold;
 }
 
-.footer-navbar div a, i {
+.footer-navbar div a,
+i {
   padding: 0 20px;
 }
