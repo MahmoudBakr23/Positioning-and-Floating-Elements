@@ -1,9 +1,9 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 h4{
@@ -11,349 +11,361 @@ h4{
 }
 
 nav {
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    display: inline-block;
-    min-width: 100%;
-    height: 7%;
-    text-align: center;
-    background-color: white;
-    border-bottom: 1px solid rgb(146, 146, 146)
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: inline-block;
+  min-width: 100%;
+  height: 7%;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(146, 146, 146);
 }
 
 nav .nav-icons {
-    float: left;
-    margin-top: 12px;
-    margin-left: 10px;
-    color: rgb(41, 41, 41);
-    font-size: 0.9em;
+  float: left;
+  margin-top: 12px;
+  margin-left: 10px;
+  color: rgb(41, 41, 41);
+  font-size: 0.9em;
 }
 
-nav .nav-icons i, a {
-    padding: 0 12px;
+nav .nav-icons i,
+a {
+  padding: 0 12px;
 }
 
 nav .nav-icons a {
-    text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: rgb(41, 41, 41);
-    cursor: default;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(41, 41, 41);
+  cursor: default;
 }
 
 nav .nav-icons a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 nav .nav-end {
-    float: right;
-    margin-top: 12px;
-    margin-right: 10px;
+  float: right;
+  margin-top: 12px;
+  margin-right: 10px;
 }
 
-nav .nav-end a, button {
-    padding: 5px 12px;
+nav .nav-end a,
+button {
+  padding: 5px 12px;
 }
 
 nav .nav-end a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: capitalize;
-    font-weight: bold;
-    text-decoration: underline;
-    color: rgb(63, 63, 63);
-    cursor: default;
-    font-size: 0.8em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(63, 63, 63);
+  cursor: default;
+  font-size: 0.8em;
 }
 
 nav .nav-end a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 nav .nav-end button {
-    background-color: black;
-    color: white;
-    border-radius: 8px;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 nav img {
-    width: 200px;
-    height: 50px;
+  width: 200px;
+  height: 50px;
 }
 
 main {
-    max-width: 50%;
-    text-align: left;
-    margin: 10% 13.5%;
+  max-width: 50%;
+  text-align: left;
+  margin: 10% 13.5%;
 }
 
 main h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    margin-left: 27%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  margin-left: 27%;
 }
 
 main img {
-    width: 150%;
+  width: 150%;
 }
 
 main p {
-    font-size: 0.8em;
-    color: rgb(80, 79, 79);
-    font-family: sans-serif;
-    font-weight: bold;
+  font-size: 0.8em;
+  color: rgb(80, 79, 79);
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 main p span {
-    font-size: 0.9em;
-    color: rgb(128, 128, 128);
+  font-size: 0.9em;
+  color: rgb(128, 128, 128);
 }
 
 .by-dennis {
-    width: 50%;
-    margin: -5% 28%;
+  width: 50%;
+  margin: -5% 28%;
 }
 
 .dennis-p h4 {
-    color: rgb(41, 41, 41);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .by-dennis h4 span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .by-dennis h4 span:hover {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .div-header p {
-    font-size: 0.8em;
-    font-family: sans-serif;
-    color: rgb(41, 41, 41);
-    float: left;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  color: rgb(41, 41, 41);
+  float: left;
 }
 
-.div-header ul{
-    list-style: none;
-    margin-left: 50%;
+.div-header ul {
+  list-style: none;
+  margin-left: 50%;
 }
 
 .div-header ul li {
-    float: left;
-    color: rgb(128, 128, 128);
-    margin: 10px 10px;
-    font-size: 1.3em;
+  float: left;
+  color: rgb(128, 128, 128);
+  margin: 10px 10px;
+  font-size: 1.3em;
 }
 
 .dennis-p {
-    max-width: 89%;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    font-family: Georgia,'times new roman',times,serif;
-    color: rgb(41, 41, 41);
+  max-width: 89%;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: Georgia, "times new roman", times, serif;
+  color: rgb(41, 41, 41);
 }
 
 .dennis-p span {
-    color: rgb(61, 61, 253);
-    text-decoration: underline;
+  color: rgb(61, 61, 253);
+  text-decoration: underline;
 }
 
 .dennis-p span:hover {
-    cursor: pointer;
-    text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .dennis-offer {
-    text-align: center;
-    font-family: sans-serif;
-    margin: 5% 0;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 5% 0;
 }
 
-.dennis-offer h5, a {
-    margin: 0;
+.dennis-offer h5,
+a {
+  margin: 0;
 }
 
 .dennis-offer h5 {
-    font-size: 0.95em;
+  font-size: 0.95em;
 }
 
 .dennis-offer a {
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(61, 61, 253);
-    font-size: 0.95em;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(61, 61, 253);
+  font-size: 0.95em;
 }
 
 .dennis-offer hr {
-    margin: 3% auto;
-    max-width: 80px;
-    text-align: center;
+  margin: 3% auto;
+  max-width: 80px;
+  text-align: center;
 }
 
 aside {
-    max-width: 20%;
-    float: right;
-    margin: -110% 3% 0 0;
+  max-width: 20%;
+  float: right;
+  margin: -110% 3% 0 0;
 }
 
 aside div img {
-    width: 80px;
-    height: 80px;
-    margin-top: 5%;
+  width: 80px;
+  height: 80px;
+  margin-top: 5%;
 }
 
 aside div a {
-    text-decoration: none;
-    color: rgb(41, 41, 41);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.75em;
-    float: right;
-    margin: -28% 15% 0 30%;
-    line-height: 1.15rem;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.75em;
+  float: right;
+  margin: -28% 15% 0 30%;
+  line-height: 1.15rem;
 }
 
 aside div a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 aside h5 {
-    font-family: sans-serif;
-    font-weight: bold;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 aside hr {
-    max-width: 80%;
-    margin-right: 20%;
+  max-width: 80%;
+  margin-right: 20%;
 }
 
 .grid-header {
-    text-align: left;
-    max-width: 70%;
-    margin: auto;
-    margin-top: 10%;
+  text-align: left;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 10%;
 }
 
-.grid-header h3{
-    color: rgb(41, 41, 41);
-    font-weight: bold;
+.grid-header h3 {
+  color: rgb(41, 41, 41);
+  font-weight: bold;
 }
 
 .grid-header p {
-    color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
 }
 
 .grid {
-    margin: auto;
-    text-align: left;
-    max-width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+  margin: auto;
+  text-align: left;
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .grid div img {
-    width: 200px;
-    height: 150px;
+  width: 200px;
+  height: 150px;
 }
 
 .grid div p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 0.9em;
-    color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9em;
+  color: rgb(41, 41, 41);
 }
 
 .grid div p span {
-    font-weight: bold;
-    font-size: 0.8em;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 
 .grid-footer {
-    text-align: left;
-    max-width: 70%;
-    margin: auto;
+  text-align: left;
+  max-width: 70%;
+  margin: auto;
 }
 
 .grid-footer hr {
-    margin-left: 0;
-    max-width: 6%;
+  margin-left: 0;
+  max-width: 6%;
 }
 
 .grid-footer p {
-    color: rgb(41, 41, 41);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .by-dennis-continue {
-    width: 50%;
-    margin: 5% 28%;
+  width: 50%;
+  margin: 5% 28%;
 }
 
 .embed-video iframe {
-    max-width: 100%;
-    background-position: center;
-    margin-top: 5%;
+  max-width: 100%;
+  background-position: center;
+  margin-top: 5%;
 }
 
 .embed-video p {
-    color: rgb(41, 41, 41);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .embed-video p span {
-    color: rgb(128, 128, 128);
-    font-size: 0.85em;
+  color: rgb(128, 128, 128);
+  font-size: 0.85em;
 }
 
 .dennis-img img {
-    max-width: 90%;
+  max-width: 90%;
 }
 
 .dennis-img p {
-    max-width: 92%;
-    color: rgb(41, 41, 41);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 92%;
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .dennis-img p span {
-    color: rgb(128, 128, 128);
-    font-size: 0.85em;
+  color: rgb(128, 128, 128);
+  font-size: 0.85em;
 }
 
 .div-footer p {
-    font-size: 0.8em;
-    font-family: sans-serif;
-    color: rgb(41, 41, 41);
-    float: left;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  color: rgb(41, 41, 41);
+  float: left;
 }
 
-.div-footer ul{
-    list-style: none;
-    margin-left: 50%;
-    margin-top: -3%;
+.div-footer ul {
+  list-style: none;
+  margin-left: 50%;
+  margin-top: -3%;
 }
 
 .div-footer ul li {
-    float: left;
-    color: rgb(128, 128, 128);
-    margin: -10px 20px;
-    font-size: 1.3em;
+  float: left;
+  color: rgb(128, 128, 128);
+  margin: -10px 20px;
+  font-size: 1.3em;
 }
 
 .div-footer button {
-    color: white;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    padding: 10px 80px;
-    background-color: rgb(86, 123, 149);
-    border: 0.5px solid rgb(50, 104, 145);
-    border-radius: 3px;
-    margin-top: 1.5%;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  background-color: rgb(86, 123, 149);
+  border: 0.5px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  margin-top: 1.5%;
 }
 
 .recommendation-area {
