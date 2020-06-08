@@ -340,8 +340,18 @@ aside hr {
 .div-footer p {
   font-size: 0.8em;
   font-family: sans-serif;
-  color: rgb(41, 41, 41);
+  color: rgb(128, 128, 128);
   float: left;
+}
+
+.div-footer p span {
+  color: rgb(128, 128, 128);
+  text-decoration: underline;
+}
+
+.div-footer p span:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .div-footer ul {
