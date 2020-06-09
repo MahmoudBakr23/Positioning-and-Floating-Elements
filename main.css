@@ -260,7 +260,7 @@ main p span {
   margin: 5% 0;
 }
 
-.dennis-offer h5, a {
+.dennis-offer h5 a {
   margin: 0;
 }
 
@@ -631,6 +631,6 @@ li.title {
   margin-right: 10%;
 }
 
-.footer-navbar div a, i {
+.footer-navbar div a i {
   padding: 0 20px;
 }
