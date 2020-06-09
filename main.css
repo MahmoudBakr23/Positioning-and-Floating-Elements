@@ -31,9 +31,32 @@ nav .nav-unique {
   font-size: 0.9em;
 }
 
-nav .nav-unique i,
-a {
+nav .nav-unique i, a {
   padding: 0 12px;
+}
+
+aside div a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.75em;
+  float: right;
+  margin: -28% 15% 0 30%;
+  line-height: 1.15rem;
+}
+
+.dennis-offer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(61, 61, 253);
+  font-size: 0.95em;
+}
+
+.footer-title a {
+  color: rgb(86, 123, 149);
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 nav .nav-unique a {
@@ -52,13 +75,8 @@ nav .nav-end {
   margin-right: 10px;
 }
 
-nav .nav-end a,
-button {
+nav .nav-end a, button {
   padding: 5px 12px;
-}
-
-nav .nav-unique a:hover {
-  text-decoration: underline;
 }
 
 nav .nav-end a {
@@ -72,8 +90,40 @@ nav .nav-end a {
   font-size: 0.8em;
 }
 
+.footer-end li a {
+  text-decoration: none;
+  padding: 0.5%;
+}
+
+.footer-navbar div a {
+  text-decoration: none;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+aside div a:hover {
+  text-decoration: underline;
+}
+
+nav .nav-unique a:hover {
+  text-decoration: underline;
+}
+
 nav .nav-end a:hover {
   cursor: pointer;
+}
+
+.div-footer button {
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  background-color: rgb(86, 123, 149);
+  border: 0.5px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  margin-top: 1.5%;
 }
 
 nav .nav-end button {
@@ -139,6 +189,26 @@ main p span {
   text-decoration: underline;
 }
 
+.embed-video p span {
+  color: rgb(128, 128, 128);
+  font-size: 0.85em;
+}
+
+.dennis-img p span {
+  color: rgb(128, 128, 128);
+  font-size: 0.85em;
+}
+
+.div-footer p span {
+  color: rgb(128, 128, 128);
+  text-decoration: underline;
+}
+
+.grid div p span {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
 .dennis-p span:hover {
   cursor: pointer;
   text-decoration: none;
@@ -159,6 +229,14 @@ main p span {
 .div-header ul {
   list-style: none;
   margin-left: 50%;
+}
+
+.footer-end li {
+  display: inline;
+  color: rgb(131, 130, 130);
+  font-size: 0.65em;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .div-header ul li {
@@ -182,20 +260,22 @@ main p span {
   margin: 5% 0;
 }
 
-.dennis-offer h5,
-a {
+.dennis-offer h5, a {
   margin: 0;
+}
+
+aside h5 {
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .dennis-offer h5 {
   font-size: 0.95em;
 }
 
-.dennis-offer a {
-  font-weight: bold;
-  text-decoration: none;
-  color: rgb(61, 61, 253);
-  font-size: 0.95em;
+aside hr {
+  max-width: 80%;
+  margin-right: 20%;
 }
 
 .dennis-offer hr {
@@ -214,30 +294,6 @@ aside div img {
   width: 80px;
   height: 80px;
   margin-top: 5%;
-}
-
-aside div a {
-  text-decoration: none;
-  color: rgb(41, 41, 41);
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 0.75em;
-  float: right;
-  margin: -28% 15% 0 30%;
-  line-height: 1.15rem;
-}
-
-aside div a:hover {
-  text-decoration: underline;
-}
-
-aside h5 {
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-aside hr {
-  max-width: 80%;
-  margin-right: 20%;
 }
 
 .grid-header {
@@ -265,9 +321,57 @@ aside hr {
   grid-gap: 20px;
 }
 
+.dennis-img img {
+  max-width: 90%;
+}
+
+.footer-title img {
+  width: 200px;
+  height: 50px;
+}
+
 .grid div img {
   width: 200px;
   height: 150px;
+}
+
+.grid-footer p {
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.embed-video p {
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.dennis-img p {
+  max-width: 92%;
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.div-footer p {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  color: rgb(128, 128, 128);
+  float: left;
+}
+
+.article p {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.footer-navbar p {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-top: 0.5%;
 }
 
 .grid div p {
@@ -275,11 +379,6 @@ aside hr {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 0.9em;
   color: rgb(41, 41, 41);
-}
-
-.grid div p span {
-  font-weight: bold;
-  font-size: 0.8em;
 }
 
 .grid-footer {
@@ -293,12 +392,6 @@ aside hr {
   max-width: 6%;
 }
 
-.grid-footer p {
-  color: rgb(41, 41, 41);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 .by-dennis-continue {
   width: 50%;
   margin: 5% 28%;
@@ -308,45 +401,6 @@ aside hr {
   max-width: 100%;
   background-position: center;
   margin-top: 5%;
-}
-
-.embed-video p {
-  color: rgb(41, 41, 41);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.embed-video p span {
-  color: rgb(128, 128, 128);
-  font-size: 0.85em;
-}
-
-.dennis-img img {
-  max-width: 90%;
-}
-
-.dennis-img p {
-  max-width: 92%;
-  color: rgb(41, 41, 41);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.dennis-img p span {
-  color: rgb(128, 128, 128);
-  font-size: 0.85em;
-}
-
-.div-footer p {
-  font-size: 0.8em;
-  font-family: sans-serif;
-  color: rgb(128, 128, 128);
-  float: left;
-}
-
-.div-footer p span {
-  color: rgb(128, 128, 128);
-  text-decoration: underline;
 }
 
 .div-footer p span:hover {
@@ -365,17 +419,6 @@ aside hr {
   color: rgb(128, 128, 128);
   margin: -10px 0;
   font-size: 1.3em;
-}
-
-.div-footer button {
-  color: white;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  padding: 10px 80px;
-  background-color: rgb(86, 123, 149);
-  border: 0.5px solid rgb(50, 104, 145);
-  border-radius: 3px;
-  margin-top: 1.5%;
 }
 
 .recommendation-area {
@@ -437,9 +480,7 @@ aside hr {
   width: 272.63px;
 }
 
-.article figure,
-.article h3,
-.article p {
+.article figure, .article h3, .article p {
   margin: 2px 0 5px 0;
   padding: 0;
 }
@@ -449,17 +490,11 @@ aside hr {
   height: 181.75px;
 }
 
-.article figure figcaption,
-.article p {
+.article figure figcaption, .article p {
   text-align: right;
   color: #999;
   font-family: sans-serif;
   font-size: 0.85em;
-}
-
-.article p {
-  text-align: left;
-  font-size: 0.8em;
 }
 
 #most-popular {
@@ -480,6 +515,15 @@ aside hr {
   padding: 20px 0;
   text-align: left;
   border-top: 1px solid #999;
+}
+
+.footer-end li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#subscribe li a {
+  font-weight: bolder;
 }
 
 #most-popular ul li a {
@@ -504,18 +548,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer-title img {
-  width: 200px;
-  height: 50px;
-}
-
-.footer-title a {
-  color: rgb(86, 123, 149);
-  font-size: 12px;
-  font-weight: 400;
-  text-decoration: none;
 }
 
 #footer-links {
@@ -555,10 +587,6 @@ li.title {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#subscribe li a {
-  font-weight: bolder;
-}
-
 #subscribe li a i {
   padding: 0;
 }
@@ -573,8 +601,7 @@ li.title {
   margin-top: 10%;
 }
 
-#mobile,
-#newsletters {
+#mobile, #newsletters {
   font-size: 0.75em;
 }
 
@@ -582,24 +609,6 @@ li.title {
   list-style: none;
   width: 95%;
   text-align: center;
-}
-
-.footer-end li {
-  display: inline;
-  color: rgb(131, 130, 130);
-  font-size: 0.65em;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-.footer-end li a {
-  text-decoration: none;
-  padding: 0.5%;
-}
-
-.footer-end li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .footer-navbar {
@@ -616,29 +625,12 @@ li.title {
   padding: 1% 0;
 }
 
-.footer-navbar p {
-  color: #333;
-  font-family: sans-serif;
-  font-size: 0.8em;
-  font-weight: bold;
-  margin-top: 0.5%;
-}
-
 .footer-navbar div {
   float: right;
   margin-top: -2.2%;
   margin-right: 10%;
 }
 
-.footer-navbar div a {
-  text-decoration: none;
-  color: #333;
-  font-family: sans-serif;
-  font-size: 0.75em;
-  font-weight: bold;
-}
-
-.footer-navbar div a,
-i {
+.footer-navbar div a, i {
   padding: 0 20px;
 }
