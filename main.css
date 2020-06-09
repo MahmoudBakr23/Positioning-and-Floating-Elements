@@ -100,7 +100,7 @@ nav .nav-end a {
   font-weight: bold;
 }
 
-.dennis-offer h5 a {
+.dennis-offer h5 , a {
   margin: 0;
 }
 
@@ -239,7 +239,7 @@ main p span {
 .div-header ul li {
   float: left;
   color: rgb(128, 128, 128);
-  margin: 10px -10px;
+  margin: 10px 8px;
   font-size: 1.3em;
 }
 
@@ -406,7 +406,7 @@ aside div img {
 .div-footer ul li {
   float: left;
   color: rgb(128, 128, 128);
-  margin: -10px 0;
+  margin: -10px 15px;
   font-size: 1.3em;
 }
 
