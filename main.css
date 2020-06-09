@@ -1,636 +1,636 @@
 * {
-  box-sizing : border-box;
+  box-sizing: border-box;
 }
 
 body {
-  background-color : rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 h4 {
-  margin : 5px;
+  margin: 5px;
 }
 
 nav {
-  top : 0;
-  left : 0;
-  right : 0;
-  position : fixed;
-  display  : inline-block;
-  min-width : 100%;
-  height : 7%;
-  text-align : center;
-  background-color : white;
-  border-bottom : 1px solid rgb(146, 146, 146);
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: inline-block;
+  min-width: 100%;
+  height: 7%;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(146, 146, 146);
 }
 
 nav .nav-unique {
-  float : left;
-  margin-top : 12px;
-  margin-left : 10px;
-  color : rgb(41, 41, 41);
-  font-size : 0.9em;
+  float: left;
+  margin-top: 12px;
+  margin-left: 10px;
+  color: rgb(41, 41, 41);
+  font-size: 0.9em;
 }
- 
+
 nav .nav-unique i, a {
-  padding : 0 12px;
+  padding: 0 12px;
 }
 
 aside div a {
-  text-decoration : none;
-  color : rgb(41, 41, 41);
-  font-family : Georgia, "Times New Roman", Times, serif;
-  font-size : 0.75em;
-  float : right;
-  margin : -28% 15% 0 30%; 
-  line-height : 1.15rem;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.75em;
+  float: right;
+  margin: -28% 15% 0 30%;
+  line-height: 1.15rem;
 }
 
 .dennis-offer a {
-  font-weight : bold;
-  text-decoration : none;
-  color : rgb(61, 61, 253);
-  font-size : 0.95em;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(61, 61, 253);
+  font-size: 0.95em;
 }
 
 .footer-title a {
-  color : rgb(86, 123, 149);
-  font-size : 12px;
-  font-weight : 400;
-  text-decoration : none; 
+  color: rgb(86, 123, 149);
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 nav .nav-unique a {
-  text-decoration : none;
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-transform : uppercase;
-  font-weight : bold;
-  color : rgb(41, 41, 41);
-  cursor : default;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(41, 41, 41);
+  cursor: default;
 }
 
 nav .nav-end {
-  float : right;
-  margin-top : 12px;
-  margin-right : 10px;
+  float: right;
+  margin-top: 12px;
+  margin-right: 10px;
 }
 
 nav .nav-end a, button {
-  padding : 5px 12px;
+  padding: 5px 12px;
 }
 
 nav .nav-end a {
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-transform : capitalize;
-  font-weight : bold;
-  text-decoration : underline;
-  color : rgb(63, 63, 63);
-  cursor : default;
-  font-size : 0.8em;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(63, 63, 63);
+  cursor: default;
+  font-size: 0.8em;
 }
 
 .footer-end li a {
-  text-decoration : none;
-  padding : 0.5%;
+  text-decoration: none;
+  padding: 0.5%;
 }
 
 .footer-navbar div a {
-  text-decoration : none;
-  color : #333;
-  font-family : sans-serif;
-  font-size : 0.75em;
-  font-weight : bold;
+  text-decoration: none;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
 }
 
 .dennis-offer h5 a {
-  margin : 0;
+  margin: 0;
 }
 
 aside div a:hover {
-  text-decoration : underline;
+  text-decoration: underline;
 }
 
 nav .nav-unique a:hover {
-  text-decoration : underline;
+  text-decoration: underline;
 }
 
 nav .nav-end a:hover {
-  cursor : pointer;
+  cursor: pointer;
 }
 
 .div-footer button {
-  color : white;
-  font-family : sans-serif;
-  text-transform : uppercase;
-  padding : 10px 80px;
-  background-color : rgb(86, 123, 149);
-  border : 0.5px solid rgb(50, 104, 145);
-  border-radius : 3px;
-  margin-top : 1.5%;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  background-color: rgb(86, 123, 149);
+  border: 0.5px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  margin-top: 1.5%;
 }
 
 nav .nav-end button {
-  background-color : black;
-  color : white;
-  border-radius : 8px;
-  font-weight : bold;
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 nav img {
-  width : 200px;
-  height : 50px;
+  width: 200px;
+  height: 50px;
 }
 
 main {
-  max-width : 50%;
-  text-align : left;
-  margin : 10% 13.5%;
+  max-width: 50%;
+  text-align: left;
+  margin: 10% 13.5%;
 }
 
 main h1 {
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-style : italic;
-  margin-left : 27%;
+  font-style: italic;
+  margin-left: 27%;
 }
 
 main img {
-  width : 150%;
+  width: 150%;
 }
 
 main p {
-  font-size : 0.8em;
-  color : rgb(80, 79, 79);
-  font-family : sans-serif;
-  font-weight : bold;
+  font-size: 0.8em;
+  color: rgb(80, 79, 79);
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 main p span {
-  font-size : 0.9em;
-  color : rgb(128, 128, 128);
+  font-size: 0.9em;
+  color: rgb(128, 128, 128);
 }
 
 .by-dennis {
-  width : 50%;
-  margin : -5% 28%;
+  width: 50%;
+  margin: -5% 28%;
 }
 
 .dennis-p h4 {
-  color : rgb(41, 41, 41);
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .dennis-p span {
-  color : rgb(61, 61, 253);
-  text-decoration : underline;
+  color: rgb(61, 61, 253);
+  text-decoration: underline;
 }
 
 .by-dennis h4 span {
-  text-decoration : underline;
+  text-decoration: underline;
 }
 
 .embed-video p span {
-  color : rgb(128, 128, 128);
-  font-size : 0.85em;
+  color: rgb(128, 128, 128);
+  font-size: 0.85em;
 }
 
 .dennis-img p span {
-  color : rgb(128, 128, 128);
-  font-size : 0.85em;
+  color: rgb(128, 128, 128);
+  font-size: 0.85em;
 }
 
 .div-footer p span {
-  color : rgb(128, 128, 128);
-  text-decoration : underline;
+  color: rgb(128, 128, 128);
+  text-decoration: underline;
 }
 
 .grid div p span {
-  font-weight : bold;
-  font-size : 0.8em;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 
 .dennis-p span:hover {
-  cursor : pointer;
-  text-decoration : none;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .by-dennis h4 span:hover {
-  text-decoration : none;
-  cursor : pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .div-header p {
-  font-size : 0.8em;
-  font-family : sans-serif;
-  color : rgb(41, 41, 41);
-  float : left;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  color: rgb(41, 41, 41);
+  float: left;
 }
 
 .div-header ul {
-  list-style : none;
-  margin-left : 50%;
+  list-style: none;
+  margin-left: 50%;
 }
 
 .footer-end li {
-  display : inline;
-  color : rgb(131, 130, 130);
-  font-size : 0.65em;
-  font-family : sans-serif;
-  font-weight : bold;
+  display: inline;
+  color: rgb(131, 130, 130);
+  font-size: 0.65em;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .div-header ul li {
-  float : left;
-  color : rgb(128, 128, 128);
-  margin : 10px -10px;
-  font-size : 1.3em;
+  float: left;
+  color: rgb(128, 128, 128);
+  margin: 10px -10px;
+  font-size: 1.3em;
 }
 
 .dennis-p {
-  max-width : 89%;
-  font-size : 1.25rem;
-  line-height : 1.875rem;
-  font-family : Georgia, "times new roman", times, serif;
-  color : rgb(41, 41, 41);
+  max-width: 89%;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: Georgia, "times new roman", times, serif;
+  color: rgb(41, 41, 41);
 }
 
 .dennis-offer {
-  text-align : center;
-  font-family : sans-serif;
-  margin : 5% 0;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 5% 0;
 }
 
 aside h5 {
-  font-family : sans-serif;
-  font-weight : bold;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .dennis-offer h5 {
-  font-size : 0.95em;
+  font-size: 0.95em;
 }
 
 aside hr {
-  max-width : 80%;
-  margin-right : 20%;
+  max-width: 80%;
+  margin-right: 20%;
 }
 
 .dennis-offer hr {
-  margin : 3% auto;
-  max-width : 80px;
-  text-align : center;
+  margin: 3% auto;
+  max-width: 80px;
+  text-align: center;
 }
 
 aside {
-  max-width : 20%;
-  float : right;
-  margin : -110% 3% 0 0;
+  max-width: 20%;
+  float: right;
+  margin: -110% 3% 0 0;
 }
 
 aside div img {
-  width : 80px;
-  height : 80px;
-  margin-top : 5%;
+  width: 80px;
+  height: 80px;
+  margin-top: 5%;
 }
 
 .grid-header {
-  text-align : left;
-  max-width : 70%;
-  margin : auto;
-  margin-top : 10%;
+  text-align: left;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 10%;
 }
 
 .grid-header h3 {
-  color : rgb(41, 41, 41);
-  font-weight : bold;
+  color: rgb(41, 41, 41);
+  font-weight: bold;
 }
 
 .grid-header p {
-  color : rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
 }
 
 .grid {
-  margin : auto;
-  text-align : left;
-  max-width : 70%;
-  display : grid;
-  grid-template-columns : 1fr 1fr 1fr 1fr;
-  grid-gap : 20px;
+  margin: auto;
+  text-align: left;
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .dennis-img img {
-  max-width : 90%;
+  max-width: 90%;
 }
 
 .footer-title img {
-  width : 200px;
-  height : 50px;
+  width: 200px;
+  height: 50px;
 }
 
 .grid div img {
-  width : 200px;
-  height : 150px;
+  width: 200px;
+  height: 150px;
 }
 
 .grid-footer p {
-  color : rgb(41, 41, 41);
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .embed-video p {
-  color : rgb(41, 41, 41);
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .dennis-img p {
-  max-width : 92%;
-  color : rgb(41, 41, 41);
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  max-width: 92%;
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .div-footer p {
-  font-size : 0.8em;
-  font-family : sans-serif;
-  color : rgb(128, 128, 128);
-  float : left;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  color: rgb(128, 128, 128);
+  float: left;
 }
 
 .article p {
-  text-align : left;
-  font-size : 0.8em;
+  text-align: left;
+  font-size: 0.8em;
 }
 
 .footer-navbar p {
-  color : #333;
-  font-family : sans-serif;
-  font-size : 0.8em;
-  font-weight : bold;
-  margin-top : 0.5%;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-top: 0.5%;
 }
 
 .grid div p {
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size : 0.9em;
-  color : rgb(41, 41, 41);
+  font-size: 0.9em;
+  color: rgb(41, 41, 41);
 }
 
 .grid-footer {
-  text-align : left;
-  max-width : 70%;
-  margin : auto;
+  text-align: left;
+  max-width: 70%;
+  margin: auto;
 }
 
 .grid-footer hr {
-  margin-left : 0;
-  max-width : 6%;
+  margin-left: 0;
+  max-width: 6%;
 }
 
 .by-dennis-continue {
-  width : 50%;
-  margin : 5% 28%;
+  width: 50%;
+  margin: 5% 28%;
 }
 
 .embed-video iframe {
-  max-width : 100%;
-  background-position : center;
-  margin-top : 5%;
+  max-width: 100%;
+  background-position: center;
+  margin-top: 5%;
 }
 
 .div-footer p span:hover {
-  text-decoration : none;
-  cursor : pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .div-footer ul {
-  list-style : none;
-  margin-left : 50%;
-  margin-top : -3%;
+  list-style: none;
+  margin-left: 50%;
+  margin-top: -3%;
 }
 
 .div-footer ul li {
-  float : left;
-  color : rgb(128, 128, 128);
-  margin : -10px 0;
-  font-size : 1.3em;
+  float: left;
+  color: rgb(128, 128, 128);
+  margin: -10px 0;
+  font-size: 1.3em;
 }
 
 .recommendation-area {
-  display : grid;
-  grid-template-columns : 1fr 300px;
-  grid-template-rows : repeat(2, 1fr);
-  grid-template-areas :
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
     "more popular"
     "more-cont popular"
     "editor-pick popular";
-  width : 90%;
-  margin : 0 auto;
-  grid-gap : 15px;
+  width: 90%;
+  margin: 0 auto;
+  grid-gap: 15px;
 }
 
 .bordered-container {
-  border-top : 1px solid #333;
-  padding-top : 5px;
+  border-top: 1px solid #333;
+  padding-top: 5px;
 }
 
 .bordered-container h5 {
-  font-weight : bold;
-  padding : 0;
-  margin : 0;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
 #more {
-  padding : 0;
-  grid-area : more;
-  width : 96%;
+  padding: 0;
+  grid-area: more;
+  width: 96%;
 }
 
 #rec-articles-cont {
-  grid-area : more-cont;
-  display : grid;
-  grid-template-columns : repeat(3, 290px);
-  width : 96%;
+  grid-area: more-cont;
+  display: grid;
+  grid-template-columns: repeat(3, 290px);
+  width: 96%;
 }
 
 #editor-pick {
-  grid-area : editor-pick;
-  border-top : 1px solid #333;
-  width : 96%;
+  grid-area: editor-pick;
+  border-top: 1px solid #333;
+  width: 96%;
 }
 #editor-articles {
-  display : grid;
-  grid-template-rows : 1fr;
-  grid-template-columns : repeat(3, 290px);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 290px);
 }
 
 .rec-articles {
-  display : grid;
-  grid-template-columns : repeat(3, 290px);
-  grid-row-gap : 50px;
-  margin-top : 1.5%;
+  display: grid;
+  grid-template-columns: repeat(3, 290px);
+  grid-row-gap: 50px;
+  margin-top: 1.5%;
 }
 
 .article {
-  width : 272.63px;
+  width: 272.63px;
 }
 
 .article figure, .article h3, .article p {
-  margin : 2px 0 5px 0;
-  padding : 0;
+  margin: 2px 0 5px 0;
+  padding: 0;
 }
 
 .article figure img {
-  width : 272.63px;
-  height : 181.75px;
+  width: 272.63px;
+  height: 181.75px;
 }
 
 .article figure figcaption, .article p {
-  text-align : right;
-  color : #999;
-  font-family : sans-serif;
-  font-size : 0.85em;
+  text-align: right;
+  color: #999;
+  font-family: sans-serif;
+  font-size: 0.85em;
 }
 
 #most-popular {
-  grid-area : popular;
-  border-top : 1px solid #333;
+  grid-area: popular;
+  border-top: 1px solid #333;
 }
 
 #most-popular h4 {
-  margin-top : 2%;
+  margin-top: 2%;
 }
 
 #most-popular ul {
-  padding : 0;
-  list-style : none;
+  padding: 0;
+  list-style: none;
 }
 
 #most-popular ul li {
-  padding : 20px 0;
-  text-align : left;
-  border-top : 1px solid #999;
+  padding: 20px 0;
+  text-align: left;
+  border-top: 1px solid #999;
 }
 
 .footer-end li a:hover {
-  text-decoration : underline;
-  cursor : pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #subscribe li a {
-  font-weight : bolder;
+  font-weight: bolder;
 }
 
 #most-popular ul li a {
-  text-decoration : none;
-  color : #333;
-  padding : 0;
+  text-decoration: none;
+  color: #333;
+  padding: 0;
 }
 
 footer {
-  width : 100%;
-  margin-top : 5%;
+  width: 100%;
+  margin-top: 5%;
 }
 
 .footer-container {
-  width : 90%;
-  margin : 0 auto;
-  border-top : 2px double #e2e2e2;
-  border-bottom : 1px solid #e2e2e2;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 2px double #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .footer-title {
-  display : flex;
-  justify-content : space-between;
-  align-items : center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #footer-links {
-  display : flex;
-  justify-content : space-between;
-  align-items : stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 #footer-links ul {
-  list-style : none;
-  padding : 0;
+  list-style: none;
+  padding: 0;
 }
 
 #footer-links ul li {
-  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding : 5px 0;
-  font-size : 0.8em;
+  padding: 5px 0;
+  font-size: 0.8em;
 }
 
 #footer-links ul li a {
-  text-decoration : none;
-  color : #333;
+  text-decoration: none;
+  color: #333;
 }
 
 #footer-links ul li a:hover {
-  text-decoration : underline;
+  text-decoration: underline;
 }
 
 li.title {
-  font-weight : bold;
-  text-transform : uppercase;
-  margin-left : 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 11px;
 }
 
 #subscribe {
-  border-left : 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer-navbar div a i {
-  padding : 0 20px;
+  padding: 0 20px;
 }
 
 #subscribe li a i {
-  padding : 0;
+  padding: 0;
 }
 
 #footer-links ul#mobile {
-  border-top : 1px solid rgba(0, 0, 0, 0.1);
-  margin-top : 9%;
-  padding-top : 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 9%;
+  padding-top: 15px;
 }
 
 #newsletters {
-  margin-top : 10%;
+  margin-top: 10%;
 }
 
 #mobile, #newsletters {
-  font-size : 0.75em;
+  font-size: 0.75em;
 }
 
 .footer-end {
-  list-style : none;
-  width : 95%;
-  text-align : center;
+  list-style: none;
+  width: 95%;
+  text-align: center;
 }
 
 .footer-navbar {
-  bottom : 0;
-  left : 0;
-  right : 0;
-  position : sticky;
-  display : inline-block;
-  min-width : 100%;
-  height : 8%;
-  text-align : center;
-  background-color : white;
-  border-top : 1px solid #333;
-  padding : 1% 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: sticky;
+  display: inline-block;
+  min-width: 100%;
+  height: 8%;
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid #333;
+  padding: 1% 0;
 }
 
 .footer-navbar div {
-  float : right;
-  margin-top : -2.2%;
-  margin-right : 10%;
+  float: right;
+  margin-top: -2.2%;
+  margin-right: 10%;
 }
