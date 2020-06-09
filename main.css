@@ -122,8 +122,23 @@ nav .nav-end a {
   font-weight: bold;
 }
 
+.subscribe li a {
+  font-weight: bolder;
+}
+
 aside div a:hover {
   text-decoration: underline;
+}
+
+.most-popular ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #333;
 }
 
 nav .nav-unique a:hover {
@@ -131,6 +146,11 @@ nav .nav-unique a:hover {
 }
 
 nav .nav-end a:hover {
+  cursor: pointer;
+}
+
+.footer-end li a:hover {
+  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -213,6 +233,11 @@ main p span {
 .dennis-img p span {
   color: rgb(128, 128, 128);
   font-size: 0.85em;
+}
+
+.subscribe li span {
+  color: #888;
+  font-size: 0.75em;
 }
 
 .div-footer p span {
@@ -442,12 +467,12 @@ aside div img {
   grid-gap: 15px;
 }
 
-.bordered-container {
+.more {
   border-top: 1px solid #333;
   padding-top: 5px;
 }
 
-.bordered-container h5 {
+.more h5 {
   font-weight: bold;
   padding: 0;
   margin: 0;
@@ -526,21 +551,6 @@ aside div img {
   border-top: 1px solid #999;
 }
 
-.footer-end li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.subscribe li a {
-  font-weight: bolder;
-}
-
-.most-popular ul li a {
-  text-decoration: none;
-  color: #333;
-  padding: 0;
-}
-
 footer {
   width: 100%;
   margin-top: 5%;
@@ -576,11 +586,6 @@ footer {
   font-size: 0.8em;
 }
 
-.footer-links ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
 .footer-links ul li a:hover {
   text-decoration: underline;
 }
@@ -601,11 +606,6 @@ li.title {
 
 .subscribe li a i {
   padding: 0;
-}
-
-.subscribe li span {
-  color: #888;
-  font-size: 0.75em;
 }
 
 .footer-links ul.mobile {
