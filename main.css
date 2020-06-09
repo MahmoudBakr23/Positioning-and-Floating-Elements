@@ -602,19 +602,15 @@ li.title {
   padding: 0;
 }
 
+#subscribe li span {
+  color: #888;
+  font-size: 0.75em;
+}
+
 #footer-links ul#mobile {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 9%;
   padding-top: 15px;
-}
-
-#newsletters {
-  margin-top: 10%;
-}
-
-#mobile,
-#newsletters {
-  font-size: 0.75em;
 }
 
 .footer-end {
