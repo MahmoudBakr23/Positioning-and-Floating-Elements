@@ -23,6 +23,8 @@ Positioning and Floating Elements CSS3 project
 👤 **Author1**
 
 - Github: [@MahmoudBakr23](https://github.com/MahmoudBakr23)
+- LinkedIn: [Mahmoud Bakr](https://www.linkedin.com/in/mahmoud-bakr-a76323194/)
+- Gmail: mbakr6821@gmail.com
 
 👤 **Author2**
 
